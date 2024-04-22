@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
+
+oauth2:
+  issuers:
+    - http://localhost:8180/realms/GAYAN-REALM
+    - http://localhost:8180/realms/master
